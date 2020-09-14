@@ -1,0 +1,144 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-13T22:59:03.204Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6399223000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify that user is able to enter a comment only with a correct email",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-enter-a-comment-with-a-correct-email-from-sample-page;verify-that-user-is-able-to-enter-a-comment-only-with-a-correct-email",
+        "after": [
+          {
+            "result": {
+              "duration": 687901400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1950177500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open home page",
+            "match": {
+              "location": "UltimateComment.open_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 935774400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate to Sample page",
+            "match": {
+              "location": "UltimateComment.navigate_to_Sample_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1207306600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter a comment with a wrong email",
+            "match": {
+              "location": "UltimateComment.enter_a_comment_with_a_wrong_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 319960700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Check Error is displayed",
+            "match": {
+              "location": "UltimateComment.check_Error_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 363981100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Navigate to Sample page",
+            "match": {
+              "location": "UltimateComment.navigate_to_Sample_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4591671700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter a comment with a correct email",
+            "match": {
+              "location": "UltimateComment.enter_a_comment_with_a_correct_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3509028000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Check Comment is received",
+            "match": {
+              "location": "UltimateComment.check_Comment_is_received()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ultimate"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I should be able to enter a comment with a correct email from sample page",
+    "description": "",
+    "id": "as-a-user-i-should-be-able-to-enter-a-comment-with-a-correct-email-from-sample-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ultimateQA.feature",
+    "tags": [
+      {
+        "name": "@ultimate",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
